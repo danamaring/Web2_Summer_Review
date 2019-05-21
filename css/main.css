@@ -58,7 +58,7 @@ table {
 
 main {
 	width: 960px;
-	padding: 0 10px 10px 0;
+	padding: 0 10px 0 10px;
 	margin: 0 auto;
 	/* border is temp -> just to see site dimensions */
 	border: thin dashed #333;
@@ -89,6 +89,95 @@ main {
 	width: 250px;
 	background-color: #f0aeae;
 }
+
+/* ADDING SITE STYLES HERE  -- THIS IS FOR THE FEATURED CONTENT SECTION*/
+
+#featured-content {
+	display: flex;
+	flex-direction: row;
+}
+
+.featured-image {
+	background-color: #3c4209;
+	width: 200px;
+	height: 300px;
+	margin-right: 60px;
+	margin-top: 30px;
+}
+
+#featured-image-description
+{
+	background-color: #75687a;
+	width: 700px;
+	height: 300px;
+	margin-top: 30px;
+	margin-bottom: 0; /* 0 values dont need px after them*/
+}
+
+#hero-image
+{
+	background-color: #3a5445;
+	width: 960px; /* width: 100%*/
+	height: 200px;
+	margin-top: 30px;
+
+}
+
+/* SOCIAL MEDIA STUFF*/ 
+
+#promo-container
+{
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+}
+
+#social-media
+{
+	display: flex;
+	flex-direction: row;
+	width: 330px;
+	margin-bottom: 40px;
+  justify-content: space-between;
+}
+
+#social-media div
+{
+	width: 100px;
+	height: 50px;
+	background-color: #e0b1cf;
+}
+
+#promo-text 
+{
+	width: 330px;
+	height: 310px;
+	background-color: #251e40;
+}
+
+#promo-image 
+{
+	width: 570px;
+	height: 400px;
+	background-color: #c7d6dc;
+	margin-left: auto;
+}
+
+#main-footer
+{
+	width: 960px;
+	height: 40px;
+	margin: 20px auto 0 auto;
+	background-color: #442916;
+}
+
+
+
+
+
+
+
+
 
 
 
